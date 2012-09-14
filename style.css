@@ -1,0 +1,209 @@
+/*
+Theme Name: SlatePress
+Theme URI: http://niel.delarouviere.com;
+Description: A clean responsive two-column theme built as a framework to customize your own theme.
+Author: Niel de la Rouviere
+Author URI: http://niel.delarouviere.com
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Oleo+Script);
+
+/*---- HTML elements ----*/
+
+a{
+	text-decoration: none;
+	color: #109FC9;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+body{
+	font-family: Verdana;
+	font-size: 100%;
+}
+
+blockquote{
+	border-left: 1px solid #aaa;
+	padding-left: 5px;
+}
+
+h1{
+	margin: 0;
+	font-family: Verdana;
+	margin-bottom: -15px;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+li{
+	list-style: none;
+}
+
+.border{
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-khtml-border-radius: 15px;
+}
+
+.thumbnail{
+	float: left;
+	margin: 0px 10px 10px -8px;
+	max-width: 100%;
+}
+
+.archive{
+	font-size: 1em;
+	color: #555;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+
+.title{
+	font-size: 3em;
+}
+
+.title a:hover{
+	text-decoration: none;
+}
+
+.widget{
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+/*--- ID Elements ---*/
+
+#post img{
+	padding: 10px;
+	box-shadow: 0.1em 0.1em 0.05em #eee;
+	max-width: 100%;
+}
+
+#teaser{
+	margin-top: -10px;
+}
+
+#container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#header{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+#main{
+	float: right;
+	width: 60%;
+	margin: 10px;
+	margin-top: 0;
+}
+
+#sharebox{
+	position: fixed;
+	margin: 0 auto 0 -87px;
+	width: 100px;
+}
+
+#sidebar{
+	float: right;
+	width: 20%;
+	margin-left: 10px;
+}
+
+#sidebar li{
+	border-left: 1px solid #eee;
+	margin-left: 2px;
+	padding-left: 5px;
+}
+
+#post{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+
+#meta{
+	color: #aaa;
+	padding: 5px;
+	background-color: #fafafa;
+	margin-bottom: -4px;
+	border: 1px solid #eee;
+	font-size: 0.8em;
+}
+
+#tags{
+	color: #aaa;
+	padding: 5px;
+	background-color: #fafafa;
+	border: 1px solid #eee;
+	font-size: 0.8em;
+}
+
+#footer{
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+	color: #aaa;
+	font-size: 0.8em;
+}
+
+/*--- Images Alignment Classes ---*/
+
+.alignleft,.left{float:left;margin-right:20px}.alignright,.right{float:right;margin-left:20px}.aligncenter,.center{display:block;margin:0 auto 25px auto}.alignnone,.block{clear:both;margin:0 0 25px 0}.clear{clear:both}img.alignleft,img.alignright{display:inline}blockquote.alignleft,blockquote.alignright{width:33%}
+
+
+/*--- Responsive CSS ---*/
+
+@media only screen and (max-width: 1100px){
+	img{
+		width: auto;
+		height: auto;
+		max-width: 100%;
+	}
+	.thumbnail{
+		width: auto;
+	}
+
+	#container{
+		width: 95%;
+	}
+
+	#main{
+		width: 76%;
+		float: left;
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 945px){
+	.thumbnail{
+		float: none;
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 700px){
+	#container{
+		width: auto;
+	}
+	
+	#header{
+		position: relative;
+		float:none;
+		width: auto;
+		text-align: left;
+	}
+	#main{
+		float:none;
+		width: auto;
+	}
+	#sidebar{
+		display: none;
+	}
+}
