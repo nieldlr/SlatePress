@@ -1,0 +1,1 @@
+SlatePress is a clean responsive Wordpress theme aimed at making it customizable for future blogs & projects.
