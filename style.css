@@ -20,7 +20,7 @@ a:hover{
 }
 
 body{
-	font-family: Verdana;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 }
 
@@ -30,9 +30,10 @@ blockquote{
 }
 
 h1{
+	font-family: 'Oleo Script', cursive;
 	margin: 0;
-	font-family: Verdana;
-	margin-bottom: -15px;
+	
+	margin-bottom: -20px;
 }
 
 ul{
@@ -66,7 +67,8 @@ li{
 }
 
 .title{
-	font-size: 3em;
+	font-size: 1.5em;
+	margin-bottom:15px; 
 }
 
 .title a:hover{

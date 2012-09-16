@@ -16,6 +16,6 @@
     <div id="wrapper">
         <div id="container">
             <div id="header">
-                <div class='title'><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name');?></a></div><div style="color: #aaa"><?php bloginfo('description'); ?></div>
+                <div class='title'><h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name');?></a></h1></div><div style="color: #aaa"><?php bloginfo('description'); ?></div>
                 <div style='clear:both;'></div>
             </div>
