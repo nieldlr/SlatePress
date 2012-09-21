@@ -6,7 +6,7 @@ Author: Niel de la Rouviere
 Author URI: http://niel.delarouviere.com
 */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans|Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script:400,700|Open+Sans:400,700);
 
 /*---- HTML elements ----*/
 
@@ -32,8 +32,13 @@ blockquote{
 h1{
 	font-family: 'Oleo Script', cursive;
 	margin: 0;
-	
 	margin-bottom: -20px;
+}
+
+h2{
+	margin: 0;
+	font-family: 'Oleo Script', cursive;
+	font-size: 2em;
 }
 
 ul{
